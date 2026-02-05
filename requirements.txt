@@ -8,3 +8,4 @@ joblib
 catboost
 streamlit
 scikit-learn==1.6.1
+gunicorn
