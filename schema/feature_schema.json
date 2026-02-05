@@ -1,0 +1,6 @@
+{
+  "cat_cols": ["Location", "Type"],
+  "num_cols": ["Size","Bedrooms","Bathrooms","Year Built","Sold_Year","Sold_Month","Sold_Quarter","Property_Age","Condition_Ordinal"],
+  "feature_order": ["Location","Size","Bedrooms","Bathrooms","Year Built","Type","Sold_Year","Sold_Month","Sold_Quarter","Property_Age","Condition_Ordinal"],
+  "condition_map": {"Poor":0,"Fair":1,"Good":2,"New":3}
+}
