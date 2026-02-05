@@ -200,7 +200,6 @@ with right:
         try:
             pred, pred_log, X_scaled = predict_price(X1)
 
-            # KPI cards
             k1, k2 = st.columns(2)
             k1.metric("Predicted Price", f"{pred:,.2f}")
             k2.metric("Predicted log1p(Price)", f"{pred_log:.4f}")
